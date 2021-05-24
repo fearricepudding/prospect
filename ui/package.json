@@ -5,7 +5,8 @@
     "private": true,
     "scripts": {
         "test": "echo \"Error: No test specified\" && exit 1",
-        "compile": "webpack --config webpack.config.js"
+        "compile": "webpack --config webpack.config.js", 
+		"watch": "webpack serve --config webpack.config.js"
     },
     "devDependencies": {
         "css-loader": "^5.2.4",

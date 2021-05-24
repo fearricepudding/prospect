@@ -3,6 +3,12 @@ const VueLoaderPlugin = require('vue-loader/lib/plugin');
 
 module.exports = {
     entry: "./src/index.js",
+	mode: "development",
+	resolve: {
+		alias: {
+			vue: 'vue/dist/vue.js'
+		}
+	},
     module:{
         rules: [
             { test: /\.vue$/, use: 'vue-loader' },

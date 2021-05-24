@@ -1,11 +1,14 @@
 import Vue from 'vue';
+//import prospect from "./components/prospect.vue";
 
-const testComponent = Vue.component("example", require('./components/example.vue').default);
+const prospect = Vue.component("prospectComp", require('./components/prospect.vue').default);
 
-new Vue({
-    el: '#app',
-	render: h => h(testComponent),
-    components: {
-        testComponent
-    }
-});
+window.addEventListener("load", function(event){
+	new Vue({
+		el: '#app',
+		//render: h => h(prospectApplication),
+		components: {
+			prospect
+		}
+	});
+})
