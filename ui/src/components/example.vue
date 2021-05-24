@@ -1,18 +1,18 @@
 <template>
     <div class="example">
-        Hello, World! 
+        Hello, World! {{something}} 
     </div>
 </template>
 <script>
-/*
-    export.default = {
+
+    module.exports = {
         data(){
             return {
                 something: "again!"
             }
         }
     }
-*/
+
 </script>
 <style>
     .example{

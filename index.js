@@ -5,12 +5,12 @@ function createWindow(){
     const win = new BrowserWindow({
         width: 1000,
         height: 700,
-        frame: false,
-        webPreferences: {
-            preload: path.join(__dirname, 'ui/dist/core.min.js');
-        }
+    //    frame: false,
+    //    webPreferences: {
+    //        preload: path.join(__dirname, './ui/dist/core.min.js')
+    //    }
     });
-    win.loadFile(__dirname, 'ui/index.html');
+    win.loadFile(path.join(__dirname, './ui/index.html'));
 }
 
 app.whenReady().then(()=>{
