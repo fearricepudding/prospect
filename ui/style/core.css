@@ -5,7 +5,7 @@ html, body{
 }
 
 header{
-	background-color: #0f0f0f;
+	background-color: #C9B7D4;
 	height:100px;
 	width:100%;
 	z-index:1;
@@ -21,7 +21,7 @@ header *{
 	top:100px;
 	left:0px;
 	bottom:0px;
-	background-color:#f00f0f;
+	background-color:#eee;
 	z-index:3;
 }
 
