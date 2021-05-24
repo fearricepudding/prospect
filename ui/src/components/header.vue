@@ -1,7 +1,7 @@
 <template>
-    <div class="frame">
-        Hello, World! {{something}} 
-    </div>
+    <header>
+	header
+    </header>
 </template>
 <script>
 export default {

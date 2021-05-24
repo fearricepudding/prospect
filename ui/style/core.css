@@ -3,3 +3,33 @@ html, body{
 	margin:0;
 	background-color:#fff;
 }
+
+header{
+	background-color: #0f0f0f;
+	height:100px;
+	width:100%;
+	z-index:1;
+	-webkit-app-region: drag;
+}
+header *{
+	-webkit-app-region: no-drag; 
+}
+
+.sidebar{
+	width:300px;
+	position:absolute;
+	top:100px;
+	left:0px;
+	bottom:0px;
+	background-color:#f00f0f;
+	z-index:3;
+}
+
+.frame{
+	position:absolute;
+	top:100px;
+	left:300px;
+	right:0px;
+	bottom: 0px;
+	z-index:2;
+}
